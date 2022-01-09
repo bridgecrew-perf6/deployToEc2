@@ -5,10 +5,10 @@ files:
     destination: /home/ec2-user/deployToEc2
 hooks:
   AfterInstall:
-   - location: scripts/setup.sh
+   - location: ./scripts/setup.sh
      timeout: 300
      runas: root
   ApplicationStart:
-   - location: scripts/run.sh
+   - location: ./scripts/run.sh
      timeout: 300
      runas: root
