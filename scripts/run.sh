@@ -1,6 +1,6 @@
 #! /bin/sh
 
-cd deployToEc2/
+cd /home/ec2-user/deployToEc2
 
 echo "Start app for current directory: ${PWD}"
 
